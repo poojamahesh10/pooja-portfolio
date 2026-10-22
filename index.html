@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Pooja's personal portfolio showcasing skills, projects, and contact information.">
+  <title>Pooja | Portfolio</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Pooja<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link contact-nav">Contact Me ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot"></span>
+          Open to opportunities
+        </div>
+
+        <p class="eyebrow">HELLO, I'M POOJA</p>
+        <h1>Creating digital<br>experiences with <span>purpose.</span></h1>
+
+        <p class="hero-description">
+          I'm a passionate developer who loves turning creative ideas
+          into clean, responsive, and user-friendly websites.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+          <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="mailto:pooja@example.com">Email ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="image-decoration"></div>
+        <div class="profile-frame">
+          <img src="profile.jpg" alt="Pooja's profile portrait"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="profile-placeholder" style="display:none">P</div>
+        </div>
+        <div class="floating-card">
+          <span class="floating-icon">✳</span>
+          <div>
+            <strong>Creative Mind</strong>
+            <p>Always learning & building</p>
+          </div>
+        </div>
+        <div class="decor-circle"></div>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <div class="container stats-grid">
+        <div class="stat"><strong>01+</strong><span>Creative mindset</span></div>
+        <div class="stat"><strong>100%</strong><span>Passion for learning</span></div>
+        <div class="stat"><strong>∞</strong><span>Ideas to explore</span></div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <span class="section-label">GET TO KNOW ME</span>
+        <h2>A little about <span>me.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card about-intro">
+          <span class="card-symbol">✳</span>
+          <h3>Curious by nature.<br>Creative by choice.</h3>
+        </div>
+        <div class="about-copy">
+          <p>
+            I'm Pooja, an aspiring developer interested in building
+            meaningful digital experiences. I enjoy learning new
+            technologies, solving problems, and creating websites
+            that look good and work smoothly.
+          </p>
+          <p>
+            My goal is to keep improving my development skills,
+            collaborate with others, and turn ideas into practical solutions.
+          </p>
+          <a href="#contact" class="text-link">Let's work together <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">WHAT I WORK WITH</span>
+          <h2>My technical <span>toolkit.</span></h2>
+          <p class="section-description">Technologies and tools I'm learning and using to bring ideas to life.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-icon">⌘</span>
+            <h3>Frontend</h3>
+            <p>HTML · CSS · JavaScript · React</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">⌘</span>
+            <h3>Backend</h3>
+            <p>Node.js · Express.js · REST APIs</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">◈</span>
+            <h3>Database</h3>
+            <p>MongoDB · MySQL</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">↗</span>
+            <h3>Tools</h3>
+            <p>Git · GitHub · VS Code</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <span class="section-label">SELECTED WORK</span>
+        <h2>Projects I'm <span>proud of.</span></h2>
+        <p class="section-description">A few examples of the work I enjoy creating.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-art project-art-one">
+            <span class="project-number">01</span>
+            <span class="project-art-title">WEB<br>EXPERIENCE.</span>
+          </div>
+          <div class="project-info">
+            <span class="project-type">WEB DEVELOPMENT</span>
+            <h3>Personal Portfolio</h3>
+            <p>A responsive website showcasing a developer's skills, experience, and projects.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="#contact" class="project-link">Discuss a project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art project-art-two">
+            <span class="project-number">02</span>
+            <span class="project-art-title">CREATIVE<br>STUDIO.</span>
+          </div>
+          <div class="project-info">
+            <span class="project-type">UI / UX DESIGN</span>
+            <h3>Creative Landing Page</h3>
+            <p>A modern landing-page concept focused on clarity, accessibility, and responsive design.</p>
+            <div class="tag-list"><span>UI Design</span><span>CSS</span><span>Responsive</span></div>
+            <a href="#contact" class="project-link">Discuss a project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art project-art-three">
+            <span class="project-number">03</span>
+            <span class="project-art-title">SMART<br>SOLUTIONS.</span>
+          </div>
+          <div class="project-info">
+            <span class="project-type">WEB APPLICATION</span>
+            <h3>Productivity Dashboard</h3>
+            <p>A sample dashboard concept for organizing tasks and presenting information clearly.</p>
+            <div class="tag-list"><span>JavaScript</span><span>API</span><span>Design</span></div>
+            <a href="#contact" class="project-link">Discuss a project ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="demo-note">Replace these sample projects with Pooja's real projects before publishing.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <span class="section-label">HAVE A PROJECT IN MIND?</span>
+          <h2>Let's make something <span>great.</span></h2>
+          <p>Have an opportunity, an idea, or just want to say hello? I'd love to hear from you.</p>
+          <a href="mailto:pooja@example.com" class="contact-email">pooja@example.com ↗</a>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+          <label for="message">Your message</label>
+          <textarea id="message" name="message" rows="4"
+            placeholder="Tell me about your idea..." required></textarea>
+
+          <button class="btn btn-primary submit-btn" type="submit">
+            Send Message ↗
+          </button>
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">pooja<span>.</span></a>
+      <p>Designed with care. Built with purpose.</p>
+      <p>© <span id="year"></span> Pooja. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
